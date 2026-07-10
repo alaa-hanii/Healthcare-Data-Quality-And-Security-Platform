@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "layer": "ingestion",
+      "status": "success",
+      "message": "Files ingested via upload.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T14:27:21.055293"
+    },
+    {
+      "id": 2,
+      "layer": "profiling",
+      "status": "success",
+      "message": "Profiling reports generated.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T14:29:11.497715"
+    },
+    {
+      "id": 3,
+      "layer": "quality",
+      "status": "success",
+      "message": "Data quality checks completed.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T14:30:33.042400"
+    },
+    {
+      "id": 4,
+      "layer": "security",
+      "status": "success",
+      "message": "Masking & encryption applied.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T14:30:53.789243"
+    },
+    {
+      "id": 5,
+      "layer": "ingestion",
+      "status": "success",
+      "message": "Files ingested via upload.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T14:40:59.032379"
+    },
+    {
+      "id": 6,
+      "layer": "profiling",
+      "status": "success",
+      "message": "Profiling reports generated.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T14:42:31.417041"
+    },
+    {
+      "id": 7,
+      "layer": "ingestion",
+      "status": "success",
+      "message": "Files ingested via upload.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T15:09:47.923161"
+    },
+    {
+      "id": 8,
+      "layer": "profiling",
+      "status": "success",
+      "message": "Profiling reports generated.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T15:11:22.823165"
+    },
+    {
+      "id": 9,
+      "layer": "quality",
+      "status": "success",
+      "message": "Data quality checks completed.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T15:12:49.775984"
+    },
+    {
+      "id": 10,
+      "layer": "security",
+      "status": "success",
+      "message": "Masking & encryption applied.",
+      "duration_seconds": null,
+      "timestamp": "2026-06-30T15:13:04.512123"
+    }
+  ]
+}

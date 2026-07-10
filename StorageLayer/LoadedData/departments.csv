@@ -1,0 +1,51 @@
+department_id,department_name,floor_number,head_doctor_id,budget
+1,IT consultant,4,,428562
+2,"Journalist, broadcasting",4,,262672
+3,Housing manager/officer,2,,945355
+4,"Surveyor, mining",2,,126683
+5,Accounting technician,3,,867972
+6,Charity officer,2,,862796
+7,Bookseller,4,,183661
+8,Child psychotherapist,3,,532388
+9,IT sales professional,1,,763237
+10,Biomedical scientist,3,,225288
+11,Academic librarian,1,,233148
+12,Jewellery designer,4,,192759
+13,Trading standards officer,2,,936214
+14,Fitness centre manager,1,,298974
+15,Chief Financial Officer,1,,689516
+16,"Nurse, children's",3,,440628
+17,"Presenter, broadcasting",2,,666928
+18,"Engineer, civil (consulting)",2,,987630
+19,Stage manager,4,,728493
+20,Nutritional therapist,1,,942493
+21,Chartered public finance accountant,2,,428967
+22,"Conservator, furniture",1,,101327
+23,"Engineer, biomedical",2,,581020
+24,"Scientist, research (physical sciences)",4,,504792
+25,Product/process development scientist,3,,948576
+26,"Administrator, Civil Service",1,,943245
+27,Chief Operating Officer,1,,748104
+28,Training and development officer,2,,213899
+29,Holiday representative,1,,712416
+30,Chartered accountant,2,,895473
+31,"Designer, textile",3,,759030
+32,Astronomer,1,,641458
+33,Insurance underwriter,4,,210217
+34,Soil scientist,3,,495482
+35,Special effects artist,2,,667605
+36,Technical brewer,1,,822501
+37,Intelligence analyst,2,,759591
+38,Graphic designer,4,,521917
+39,Medical physicist,2,,494722
+40,Chartered certified accountant,4,,170634
+41,Colour technologist,4,,499933
+42,Charity fundraiser,1,,894744
+43,Contractor,1,,657835
+44,"Loss adjuster, chartered",4,,673707
+45,Psychotherapist,4,,243212
+46,"Psychologist, forensic",1,,754440
+47,Clinical research associate,3,,362895
+48,"Designer, textile",1,,965586
+49,"Administrator, local government",3,,469354
+50,"Engineer, technical sales",1,,685418
