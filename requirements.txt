@@ -1,0 +1,40 @@
+# ================= Data Quality Gate System - requirements.txt =================
+# Core Python dependencies collected from all pipeline layers
+# (Ingestion, Profiling, Data Quality, Security, UI/Backend)
+# ================================================================================
+
+# ---- UI Layer (Streamlit) ----
+streamlit
+requests
+
+# ---- Backend (FastAPI) ----
+fastapi
+uvicorn
+
+# ---- Ingestion Layer ----
+pyspark
+pyodbc
+python-dotenv
+
+# ---- Data handling ----
+pandas
+numpy
+openpyxl
+
+# ---- Profiling Layer ----
+ydata-profiling
+
+# ---- Data Quality Layer ----
+great_expectations
+
+# ---- Security Layer ----
+cryptography
+
+# ================================================================================
+# NOT included above (cannot be installed via pip / requirements.txt):
+# - Java JDK 17            -> needed by PySpark, install separately, set JAVA_HOME
+# - Microsoft ODBC Driver 17/18 for SQL Server -> install from Microsoft's site
+# - Microsoft SQL Server (Developer/Express) + SSIS -> separate installer
+# - Power BI Desktop        -> separate installer
+# - Docker Desktop + Apache Airflow image -> managed via docker-compose.yml
+# ================================================================================
