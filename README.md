@@ -6,7 +6,7 @@ An end-to-end **Data Engineering pipeline** that takes raw data from ingestion a
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 > Ensure that any data entering the system is **reliable, clean, and secure** before it is used for reporting or decision-making.
 
@@ -18,7 +18,7 @@ The system is built around three core principles:
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The system is organized into four core layers that communicate through a shared Storage Layer:
 
@@ -33,7 +33,7 @@ The system is organized into four core layers that communicate through a shared 
 
 ---
 
-## 🧱 Pipeline Layers
+##  Pipeline Layers
 
 ### 1️⃣ Ingestion Layer
 Reads raw data from uploaded CSV files or directly from a SQL Server instance via Apache Spark, and stores it unmodified to preserve data lineage and allow tracing back to the original source.
@@ -45,7 +45,7 @@ Runs statistical profiling on every ingested table — missing values, data type
 
 ![Profiling](Pictures/profiling.png)
 
-### 3️⃣ Data Quality Layer 🔥
+### 3️⃣ Data Quality Layer 
 The core of the system. Applies rule-based data quality checks using **Great Expectations** across six dimensions:
 
 | Dimension | Question it answers |
@@ -83,7 +83,7 @@ Coordinates the full pipeline — scheduling, dependency management, and monitor
 
 ---
 
-## 🔄 How It Works (Request Flow)
+##  How It Works (Request Flow)
 
 1. The user triggers an action from the Streamlit UI
 2. The request is sent to the FastAPI backend
@@ -98,7 +98,7 @@ Coordinates the full pipeline — scheduling, dependency management, and monitor
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Category | Technology |
 |---|---|
@@ -113,7 +113,7 @@ Coordinates the full pipeline — scheduling, dependency management, and monitor
 
 ---
 
-## 🚀 Setup
+##  Setup
 
 ### Prerequisites
 
@@ -166,7 +166,7 @@ Then open the app in your browser, log in, and run the layers in sequence from t
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Data-Quality-Gate-pipeline/
@@ -181,7 +181,7 @@ Data-Quality-Gate-pipeline/
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - The login page is currently a UI-side check only (no real authentication) — hardening it into a proper `/auth/login` endpoint is a recommended next step before production use.
 - Encryption keys are kept locally (`Keys/` folder or environment variables) and are **not** committed to source control.
